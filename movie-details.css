@@ -1,0 +1,85 @@
+/* styles for the movie details page */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.movie-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#userFeedback label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#userFeedback select,
+#userFeedback textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitFeedback {
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+}
+
+#submitFeedback:hover {
+    background-color: #0056b3;
+}
+
+#userFeedbackDisplay {
+    margin-top: 20px;
+}
+
+#userFeedbackDisplay p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#backToList {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+}
+
+#backToList:hover {
+    background-color: #1a1a1a;
+}

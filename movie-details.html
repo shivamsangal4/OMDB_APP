@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="movie-details.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="movieTitle"></h1>
+      <div id="movieDetails"></div>
+      <div id="userFeedback">
+        <label for="rating">Rate this movie:</label>
+        <select id="rating" name="rating">
+          <option value="1">1 star</option>
+          <option value="2">2 stars</option>
+          <option value="3">3 stars</option>
+          <option value="4">4 stars</option>
+          <option value="5">5 stars</option>
+        </select>
+        <textarea
+          id="comment"
+          name="comment"
+          placeholder="Leave a comment..."
+        ></textarea>
+        <button id="submitFeedback">Submit Feedback</button>
+        <div id="userFeedbackDisplay">
+          <p>Your Rating: <span id="userRatingDisplay"></span></p>
+          <p>Your Comment: <span id="userCommentDisplay"></span></p>
+        </div>
+      </div>
+      <button id="backToList">Back to List</button>
+    </div>
+
+    <script src="movie-details.js"></script>
+  </body>
+</html>
